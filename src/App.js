@@ -7,7 +7,7 @@ function App() {
   const [city,setCity] = useState(null);
 
 const getWeatherData = async()=>{
-    let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=7db7f4dc24f41ff2956b0ddce4ddf5da&units=metric`);
+    let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=f616f11bc120a7a13c5d88840493a08f&units=metric`);
     let result = await response.json();
 setCity(result)
     
