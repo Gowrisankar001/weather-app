@@ -16,7 +16,7 @@ setCity(result)
 
 useEffect(()=>{
   getWeatherData();
-},[getWeatherData])
+},[search])
 
   return (
     <div className="App">
